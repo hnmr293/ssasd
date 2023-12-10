@@ -1,0 +1,10 @@
+.SSaSD .SSaSD_max_downsample .has-info + div {
+    display: none;
+    white-space-collapse: preserve;
+    text-wrap: nowrap;
+    font-family: Consolas, monospace;
+}
+
+.SSaSD .SSaSD_max_downsample:hover .has-info + div {
+    display: block;
+}
