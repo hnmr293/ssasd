@@ -43,6 +43,10 @@ This is the script to reduce the size of the latent input to the self-attention 
   WebUI
   DPM++ 3M SDE / 30 steps / 640x1024 / cfg scale 3.0
   ssasd: max_downsample=2, scale=2, end_step=0.5(15)
+
+[performance]
+  off: 7.4s
+  on: 6.3s
 ```
 
 ![ssasd](images/sample2.png)
@@ -55,10 +59,11 @@ This is the script to reduce the size of the latent input to the self-attention 
   7th_anime_v3_A
   DPM++ 2M Karras / 20 steps / 640x1024 / cfg scale 7.0
   ssasd: max_downsample=1, scale=2, end_step=0.5(10)
-```
 
-off: 7.1s
-on: 6.1s
+[performance]
+  off: 7.1s
+  on: 6.1s
+```
 
 ![ssasd](images/sample3.png)
 
@@ -78,4 +83,4 @@ on: 6.1s
 | **ssasd (this)** | **10** | **22.07**   | **22.66**   | **21.49**   | **0.45** |
 | **tomesd + ssasd** | **10** | **19.44**   | **20.13**   | **18.93**   | **0.48** |
 
-Yes, [tomesd](https://github.com/dbolya/tomesd) is nice ^^.
+Yes, [tomesd](https://github.com/dbolya/tomesd) is nice ^^;
