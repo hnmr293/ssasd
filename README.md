@@ -27,7 +27,7 @@ $ git clone https://github.com/hnmr293/ssasd.git
 
 ## What is this?
 
-This is the script to reduce the size of the latent input to the self-attention layer. Then computation of the self-attention layer will be reduced and generation speed will be improved.
+This is the script to reduce the size of the latent input to the self-attention layer. Then computation time of the self-attention layer will be reduced and generation speed will be improved.
 
 ## Examples
 
